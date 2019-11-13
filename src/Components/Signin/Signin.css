@@ -1,0 +1,70 @@
+
+.signin--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid ivory;
+    border-radius: 20%;
+    padding: 2.5rem 0;
+    margin: 2rem 2rem;
+    width: 350px;
+    margin: 0 auto;
+    background-color: midnightblue;
+}
+
+.signin--form h2 {
+    color: ivory;
+    font-size: 2.5rem;
+    margin: 0 0 0.3rem 0;
+}
+
+.signin--input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.signin--input input {
+    border: 1px solid ivory;
+    background-color: midnightblue;
+    padding: 0.5rem;
+    color: ivory;
+    margin: 0.4rem 0;
+    text-align: center;
+}
+
+.signin--form label {
+    color: ivory;
+}
+
+.rememberme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.5rem 0;
+}
+
+.signin--form .signin--submit {
+    border: 1px solid ivory;
+    font-size: 1.5rem;
+    color: ivory;
+    margin: 1rem auto;
+    background-color: midnightblue;
+    padding: 0.5rem 2.5rem;
+}
+
+.signin--form .signin--register {
+    color: ivory;
+    margin: 1rem auto;
+    padding: 0.25rem 1.75rem;
+    background-color: midnightblue;
+    cursor: pointer;
+}

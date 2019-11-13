@@ -1,0 +1,27 @@
+logo--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.Tilt {
+    border-radius: 2rem;
+    border: 5px solid ivory;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.Tilt-inner {
+    color: ivory;
+    font-size: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

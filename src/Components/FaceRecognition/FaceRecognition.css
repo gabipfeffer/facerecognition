@@ -1,0 +1,19 @@
+
+.facerecognition--container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.facerecognition--placeholder {
+    position: absolute;
+}
+
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px aqua inset;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
